@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spigotplugin:jar">
+    <output-path>$PROJECT_DIR$/spigot/plugins</output-path>
+    <root id="archive" name="spigotplugin.jar">
+      <element id="module-output" name="spigotplugin" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,19 @@
+name: HelloWorld
+version: 0.1
+author: afrymask
+main: top.afrymask.spigotplugin.SamplePlugin
+website: http://afrymask.top/
+commands:
+  pos:
+    description: Run command.
+    usage: /pos
+    permission:
+    permission-message:
+  debug:
+    description: Run command.
+    usage: /debug
+    permission: afrymask2.debug
+    permission-message: nono
+permissions:
+  afrymask2.*:
+    default: op
